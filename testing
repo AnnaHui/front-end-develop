@@ -1,17 +1,17 @@
 let testing1 = () => {
   let string = 'reverse';
   let newString = string.split("").reverse().join("");
-  console.log(`teating1 Ans = ${newString}`);
+  // console.log(`teating1 Ans = ${newString}`);
 };
 
 let testing2 = (sqrtNum) => {
   for(let i = 1; i <= sqrtNum / i ; ++i ) {
     if( i * i == sqrtNum ) {
-      console.log( `${sqrtNum} is true`);
+      // console.log( `${sqrtNum} is true`);
       return true;
     }
   }
-  console.log( `${sqrtNum} is false`);
+  // console.log( `${sqrtNum} is false`);
   return false;
 };
 
@@ -42,7 +42,7 @@ let testing3 = (newS, newE, array) => {
   let a0 = Math.max(...a);
   let b0 = Math.min(...a);
   newArray.splice(k,n,[b0,a0]);
-  console.log(newArray)
+  // console.log(newArray)
   
 };
 
@@ -65,10 +65,10 @@ let testing4 = (word) => {
   };
   
   if( newWord.length + newArray.length != arrLength ){
-    console.log(false);
+    // console.log(false);
     return false;
   } else {
-    console.log(true);
+    // console.log(true);
     return true
   }
 };
@@ -76,7 +76,7 @@ let testing4 = (word) => {
 let testing5 = () => {
   //1的二進位為01  2的二進位為10  1^2得到11 即為3
   let sum = 1^2;
-  console.log(`teating5 Ans = ${sum}`);
+  // console.log(`teating5 Ans = ${sum}`);
 }
 
 
